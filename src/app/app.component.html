@@ -1,1 +1,5 @@
-<app-greeting></app-greeting>
+<input  #no1 placeholder="enter First No">
+<input  #no2 placeholder="enter Second No">
+<button (click)="add(no1.value,no2.value)" >Add</button>
+<label>result : {{result}}</label>
+<app-my></app-my>
